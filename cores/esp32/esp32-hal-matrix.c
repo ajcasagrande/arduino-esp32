@@ -14,7 +14,7 @@
 
 #include "esp32-hal-matrix.h"
 #include "esp_attr.h"
-#include "rom/gpio.h"
+#include "esp32/rom/gpio.h"
 
 #define MATRIX_DETACH_OUT_SIG 0x100
 #define MATRIX_DETACH_IN_LOW_PIN 0x30

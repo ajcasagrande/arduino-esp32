@@ -21,7 +21,7 @@
 #include "esp_log.h"
 #include "soc/rtc.h"
 #include "soc/rtc_cntl_reg.h"
-#include "rom/rtc.h"
+#include "esp32/rom/rtc.h"
 #include "soc/apb_ctrl_reg.h"
 #include "soc/efuse_reg.h"
 #include "esp32-hal.h"

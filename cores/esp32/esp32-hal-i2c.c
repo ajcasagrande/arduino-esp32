@@ -18,7 +18,7 @@
 #include "freertos/task.h"
 #include "freertos/semphr.h"
 #include "freertos/event_groups.h"
-#include "rom/ets_sys.h"
+#include "esp32/rom/ets_sys.h"
 #include "driver/periph_ctrl.h"
 #include "soc/i2c_reg.h"
 #include "soc/i2c_struct.h"
