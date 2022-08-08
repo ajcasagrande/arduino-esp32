@@ -134,6 +134,15 @@ size_t Print::print(unsigned long n, int base)
     }
 }
 
+size_t Print::print(unsigned long long n, int base)
+{
+  if(base == 0) {
+    return write(n);
+  } else {
+    return printNumber(n, base);
+  }
+}
+
 size_t Print::print(double n, int digits)
 {
     return printFloat(n, digits);
