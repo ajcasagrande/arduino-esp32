@@ -81,6 +81,7 @@ public:
     size_t print(unsigned int, int = DEC);
     size_t print(long, int = DEC);
     size_t print(unsigned long, int = DEC);
+    size_t print(unsigned long long, int = DEC);
     size_t print(double, int = 2);
     size_t print(const Printable&);
     size_t print(struct tm * timeinfo, const char * format = NULL);
